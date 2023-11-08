@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_0
+      name: coin01
       rect:
         serializedVersion: 2
         x: 160
@@ -131,7 +131,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_1
+      name: coin02
       rect:
         serializedVersion: 2
         x: 192
@@ -152,7 +152,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_2
+      name: coin03
       rect:
         serializedVersion: 2
         x: 224
@@ -173,7 +173,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_3
+      name: coin04
       rect:
         serializedVersion: 2
         x: 256
@@ -194,7 +194,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_4
+      name: coin05
       rect:
         serializedVersion: 2
         x: 288
@@ -215,7 +215,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_5
+      name: coin06
       rect:
         serializedVersion: 2
         x: 320
@@ -236,7 +236,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_6
+      name: ladder01
       rect:
         serializedVersion: 2
         x: 0
@@ -257,7 +257,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_7
+      name: float04
       rect:
         serializedVersion: 2
         x: 128
@@ -278,7 +278,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,7 +299,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_9
+      name: plant01
       rect:
         serializedVersion: 2
         x: 224
@@ -320,7 +320,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_10
+      name: plant02
       rect:
         serializedVersion: 2
         x: 256
@@ -341,7 +341,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_11
+      name: plant03
       rect:
         serializedVersion: 2
         x: 288
@@ -362,7 +362,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,7 +375,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_12
+      name: plant04
       rect:
         serializedVersion: 2
         x: 320
@@ -383,7 +383,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,7 +396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_13
+      name: ladder02
       rect:
         serializedVersion: 2
         x: 0
@@ -404,7 +404,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -417,7 +417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_14
+      name: float01
       rect:
         serializedVersion: 2
         x: 96
@@ -425,7 +425,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,7 +438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_15
+      name: float02
       rect:
         serializedVersion: 2
         x: 128
@@ -446,7 +446,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,7 +459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_16
+      name: float03
       rect:
         serializedVersion: 2
         x: 160
@@ -467,7 +467,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,7 +480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_17
+      name: plant05
       rect:
         serializedVersion: 2
         x: 224
@@ -488,7 +488,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_18
+      name: crate
       rect:
         serializedVersion: 2
         x: 256
@@ -509,7 +509,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_19
+      name: plant06
       rect:
         serializedVersion: 2
         x: 288
@@ -530,7 +530,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -543,7 +543,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_20
+      name: plant07
       rect:
         serializedVersion: 2
         x: 320
@@ -551,7 +551,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -564,7 +564,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_21
+      name: ladder03
       rect:
         serializedVersion: 2
         x: 0
@@ -572,7 +572,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -585,7 +585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_22
+      name: spike
       rect:
         serializedVersion: 2
         x: 32
@@ -593,7 +593,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -606,7 +606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_23
+      name: grass18
       rect:
         serializedVersion: 2
         x: 128
@@ -614,7 +614,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -627,7 +627,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_24
+      name: fruit01
       rect:
         serializedVersion: 2
         x: 192
@@ -635,7 +635,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -648,7 +648,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_25
+      name: fruit02
       rect:
         serializedVersion: 2
         x: 224
@@ -656,7 +656,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_26
+      name: fruit03
       rect:
         serializedVersion: 2
         x: 256
@@ -677,7 +677,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -690,7 +690,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_27
+      name: fruit04
       rect:
         serializedVersion: 2
         x: 288
@@ -698,7 +698,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -711,7 +711,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_28
+      name: grass03
       rect:
         serializedVersion: 2
         x: 32
@@ -719,7 +719,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -732,7 +732,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_29
+      name: grass04
       rect:
         serializedVersion: 2
         x: 64
@@ -740,7 +740,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -753,7 +753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_30
+      name: dirt04
       rect:
         serializedVersion: 2
         x: 128
@@ -761,7 +761,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -774,7 +774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_31
+      name: grass13
       rect:
         serializedVersion: 2
         x: 192
@@ -782,7 +782,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -795,7 +795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_32
+      name: grass14
       rect:
         serializedVersion: 2
         x: 224
@@ -803,7 +803,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -816,7 +816,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_33
+      name: grass01
       rect:
         serializedVersion: 2
         x: 0
@@ -824,7 +824,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -837,7 +837,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_34
+      name: grass02
       rect:
         serializedVersion: 2
         x: 32
@@ -845,7 +845,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -858,7 +858,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_35
+      name: grass07
       rect:
         serializedVersion: 2
         x: 64
@@ -866,7 +866,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -879,7 +879,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_36
+      name: grass08
       rect:
         serializedVersion: 2
         x: 96
@@ -887,7 +887,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -900,7 +900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_37
+      name: grass09
       rect:
         serializedVersion: 2
         x: 128
@@ -908,7 +908,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -921,7 +921,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_38
+      name: grass10
       rect:
         serializedVersion: 2
         x: 160
@@ -929,7 +929,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -942,7 +942,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_39
+      name: grass11
       rect:
         serializedVersion: 2
         x: 192
@@ -950,7 +950,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -963,7 +963,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_40
+      name: grass16
       rect:
         serializedVersion: 2
         x: 224
@@ -971,7 +971,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -984,7 +984,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_41
+      name: grass17
       rect:
         serializedVersion: 2
         x: 256
@@ -992,7 +992,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1005,7 +1005,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_42
+      name: water09
       rect:
         serializedVersion: 2
         x: 288
@@ -1013,7 +1013,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1026,15 +1026,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_43
+      name: water01
       rect:
         serializedVersion: 2
-        x: 320
+        x: 321
         y: 128
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1047,7 +1047,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_44
+      name: water02
       rect:
         serializedVersion: 2
         x: 352
@@ -1055,7 +1055,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1068,7 +1068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_45
+      name: water03
       rect:
         serializedVersion: 2
         x: 384
@@ -1076,7 +1076,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1089,7 +1089,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_46
+      name: water04
       rect:
         serializedVersion: 2
         x: 416
@@ -1097,7 +1097,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1110,7 +1110,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_47
+      name: water05
       rect:
         serializedVersion: 2
         x: 448
@@ -1118,7 +1118,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1131,7 +1131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_48
+      name: water08
       rect:
         serializedVersion: 2
         x: 480
@@ -1139,7 +1139,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1152,7 +1152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_49
+      name: grass05
       rect:
         serializedVersion: 2
         x: 32
@@ -1160,7 +1160,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1173,7 +1173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_50
+      name: grass06
       rect:
         serializedVersion: 2
         x: 64
@@ -1181,7 +1181,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1194,7 +1194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_51
+      name: dirt01
       rect:
         serializedVersion: 2
         x: 96
@@ -1202,7 +1202,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1215,7 +1215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_52
+      name: dirt02
       rect:
         serializedVersion: 2
         x: 128
@@ -1223,7 +1223,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1236,7 +1236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_53
+      name: dirt03
       rect:
         serializedVersion: 2
         x: 160
@@ -1244,7 +1244,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1257,7 +1257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_54
+      name: grass12
       rect:
         serializedVersion: 2
         x: 192
@@ -1265,7 +1265,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1278,7 +1278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_55
+      name: grass15
       rect:
         serializedVersion: 2
         x: 224
@@ -1286,7 +1286,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1299,7 +1299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_56
+      name: water06
       rect:
         serializedVersion: 2
         x: 320
@@ -1307,7 +1307,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1320,7 +1320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_57
+      name: water07
       rect:
         serializedVersion: 2
         x: 320
@@ -1328,7 +1328,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,7 +1341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_58
+      name: sign01
       rect:
         serializedVersion: 2
         x: 384
@@ -1349,7 +1349,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1362,7 +1362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_59
+      name: sign02
       rect:
         serializedVersion: 2
         x: 448
@@ -1370,7 +1370,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1383,7 +1383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_60
+      name: wood01
       rect:
         serializedVersion: 2
         x: 32
@@ -1391,7 +1391,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1404,7 +1404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_61
+      name: wood02
       rect:
         serializedVersion: 2
         x: 64
@@ -1412,7 +1412,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1425,7 +1425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_62
+      name: wood03
       rect:
         serializedVersion: 2
         x: 96
@@ -1433,7 +1433,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1446,7 +1446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_63
+      name: wood04
       rect:
         serializedVersion: 2
         x: 160
@@ -1454,7 +1454,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1467,7 +1467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_64
+      name: sign03
       rect:
         serializedVersion: 2
         x: 416
@@ -1475,7 +1475,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1488,7 +1488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel_platform_01_tileset_final_65
+      name: sign04
       rect:
         serializedVersion: 2
         x: 480
@@ -1496,7 +1496,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1519,72 +1519,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixel_platform_01_tileset_final_0: 1786203143
-      pixel_platform_01_tileset_final_1: 742265497
-      pixel_platform_01_tileset_final_10: 606762076
-      pixel_platform_01_tileset_final_11: 1226504588
-      pixel_platform_01_tileset_final_12: 442473543
-      pixel_platform_01_tileset_final_13: -1464041439
-      pixel_platform_01_tileset_final_14: 635887695
-      pixel_platform_01_tileset_final_15: 696754568
-      pixel_platform_01_tileset_final_16: -202794935
-      pixel_platform_01_tileset_final_17: 2008401754
-      pixel_platform_01_tileset_final_18: 1129714772
-      pixel_platform_01_tileset_final_19: -1007581394
-      pixel_platform_01_tileset_final_2: 1927745870
-      pixel_platform_01_tileset_final_20: -1128622962
-      pixel_platform_01_tileset_final_21: 458540205
-      pixel_platform_01_tileset_final_22: 602219296
-      pixel_platform_01_tileset_final_23: -228912150
-      pixel_platform_01_tileset_final_24: -2051608012
-      pixel_platform_01_tileset_final_25: -605511840
-      pixel_platform_01_tileset_final_26: 1271245310
-      pixel_platform_01_tileset_final_27: 2105969273
-      pixel_platform_01_tileset_final_28: 1948492070
-      pixel_platform_01_tileset_final_29: 1702242505
-      pixel_platform_01_tileset_final_3: 635998763
-      pixel_platform_01_tileset_final_30: 1914100509
-      pixel_platform_01_tileset_final_31: -791311714
-      pixel_platform_01_tileset_final_32: -454503333
-      pixel_platform_01_tileset_final_33: 1449039421
-      pixel_platform_01_tileset_final_34: -1548601389
-      pixel_platform_01_tileset_final_35: -2062815750
-      pixel_platform_01_tileset_final_36: 182545631
-      pixel_platform_01_tileset_final_37: 208403960
-      pixel_platform_01_tileset_final_38: -45390574
-      pixel_platform_01_tileset_final_39: -346148702
-      pixel_platform_01_tileset_final_4: -224255089
-      pixel_platform_01_tileset_final_40: 883464250
-      pixel_platform_01_tileset_final_41: -332961542
-      pixel_platform_01_tileset_final_42: 730995179
-      pixel_platform_01_tileset_final_43: 1147930068
-      pixel_platform_01_tileset_final_44: 1271672556
-      pixel_platform_01_tileset_final_45: -802515680
-      pixel_platform_01_tileset_final_46: 1968150555
-      pixel_platform_01_tileset_final_47: -1995166863
-      pixel_platform_01_tileset_final_48: 1216477260
-      pixel_platform_01_tileset_final_49: -879416232
-      pixel_platform_01_tileset_final_5: -1841961303
-      pixel_platform_01_tileset_final_50: -1068286422
-      pixel_platform_01_tileset_final_51: 930156529
-      pixel_platform_01_tileset_final_52: 903920767
-      pixel_platform_01_tileset_final_53: -1218037680
-      pixel_platform_01_tileset_final_54: -1035742105
-      pixel_platform_01_tileset_final_55: 1035383009
-      pixel_platform_01_tileset_final_56: -1590191993
-      pixel_platform_01_tileset_final_57: -1564395008
-      pixel_platform_01_tileset_final_58: -748068913
-      pixel_platform_01_tileset_final_59: -1883374041
-      pixel_platform_01_tileset_final_6: -1167316748
-      pixel_platform_01_tileset_final_60: 1981133599
-      pixel_platform_01_tileset_final_61: 1685829387
-      pixel_platform_01_tileset_final_62: 1849401450
-      pixel_platform_01_tileset_final_63: -2068090390
-      pixel_platform_01_tileset_final_64: -426562384
-      pixel_platform_01_tileset_final_65: 1872796548
-      pixel_platform_01_tileset_final_7: -865123095
+      coin01: 1786203143
+      coin02: 742265497
+      coin03: 1927745870
+      coin04: 635998763
+      coin05: -224255089
+      coin06: -1841961303
+      crate: 1129714772
+      dirt01: 930156529
+      dirt02: 903920767
+      dirt03: -1218037680
+      dirt04: 1914100509
+      float01: 635887695
+      float02: 696754568
+      float03: -202794935
+      float04: -865123095
+      fruit01: -2051608012
+      fruit02: -605511840
+      fruit03: 1271245310
+      fruit04: 2105969273
+      grass01: 1449039421
+      grass02: -1548601389
+      grass03: 1948492070
+      grass04: 1702242505
+      grass05: -879416232
+      grass06: -1068286422
+      grass07: -2062815750
+      grass08: 182545631
+      grass09: 208403960
+      grass10: -45390574
+      grass11: -346148702
+      grass12: -1035742105
+      grass13: -791311714
+      grass14: -454503333
+      grass15: 1035383009
+      grass16: 883464250
+      grass17: -332961542
+      grass18: -228912150
+      ladder01: -1167316748
+      ladder02: -1464041439
+      ladder03: 458540205
       pixel_platform_01_tileset_final_8: 2065730404
-      pixel_platform_01_tileset_final_9: -827558351
+      plant01: -827558351
+      plant02: 606762076
+      plant03: 1226504588
+      plant04: 442473543
+      plant05: 2008401754
+      plant06: -1007581394
+      plant07: -1128622962
+      sign01: -748068913
+      sign02: -1883374041
+      sign03: -426562384
+      sign04: 1872796548
+      spike: 602219296
+      water01: 1147930068
+      water02: 1271672556
+      water03: -802515680
+      water04: 1968150555
+      water05: -1995166863
+      water06: -1590191993
+      water07: -1564395008
+      water08: 1216477260
+      water09: 730995179
+      wood01: 1981133599
+      wood02: 1685829387
+      wood03: 1849401450
+      wood04: -2068090390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
