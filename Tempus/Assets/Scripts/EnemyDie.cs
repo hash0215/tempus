@@ -5,9 +5,13 @@ using UnityEngine;
 public class EnemyDie : MonoBehaviour
 {
     public int HP;
+    public int DMG;
     Rigidbody2D rigid;
     Animator anim;
     float time = 0.0f;
+    public GameObject obj;
+    int seasontp = 0;
+    //bool dotdmg = false;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +22,8 @@ public class EnemyDie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        seasontp = obj.GetComponent<elementchange>().seasontype;
+        Debug.Log("updated " + seasontp);
     }
 
 
@@ -26,7 +31,7 @@ public class EnemyDie : MonoBehaviour
     {
         if (other.tag == "Effect")
         {
-            HP -= 30;                                       //Blast Damage == 30
+            HP -= DMG;                                       //Blast Damage == DMG
             if (HP < 0)                                     //when enemy is dead
             {
                 Debug.Log("Enemy is dead!");
@@ -35,14 +40,50 @@ public class EnemyDie : MonoBehaviour
             else
             {
                 Debug.Log("Enemy remain HP is: " + HP);
-                
 
-                while (time < 1.0f)
+                if (seasontp == 1)           //spring
                 {
-                    time += Time.deltaTime / 0.5f;
-                    rigid.velocity = new Vector2(1.0f, 0);
+                    Debug.Log("seasontp == 1");
+                    
+                  
                 }
-                time = 0.0f;
+                else if (seasontp == 2)      //summer
+                {
+                    Debug.Log("seasontp == 2");
+                    while (time < 1.0f)                     // on fire - additional dot damage
+                    {
+                        time += Time.deltaTime / 0.5f;
+                        HP -= 5;
+                    }
+                    time = 0.0f;
+                }
+                else if (seasontp == 3)     //fall
+                {
+                    Debug.Log("seasontp == 3");
+                    while (time < 1.0f)
+                    {
+                        time += Time.deltaTime / 0.5f;
+                        rigid.velocity = new Vector2(3.0f, 0);
+                    }
+                    time = 0.0f;
+                }
+                else if (seasontp == 4)     //winter
+                {
+                    Debug.Log("seasontp == 4");
+                    while (time < 1.0f)
+                    {
+                        time += Time.deltaTime / 0.5f;
+                        //make enemy slow
+                    }
+                    time = 0.0f;
+                }
+
+                /* while (time < 1.0f)
+                 {
+                     time += Time.deltaTime / 0.5f;
+                     rigid.velocity = new Vector2(1.0f, 0);
+                 }
+                 time = 0.0f;*/
 
             }
         }

@@ -5,14 +5,17 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public int damage = 5;
+    public int damage;
 
     private float curTime;
     public float coolTime = 0.5f; // cooltime
     public GameObject Blast;
+    SpriteRenderer PlayerFlip;
 
     void Attack() //attack
     {
+        GameObject player = GameObject.Find("Player");
+        PlayerFlip = player.GetComponent<SpriteRenderer>();
         curTime = coolTime;
         StartCoroutine("Attacking");
     }
@@ -20,9 +23,17 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator Attacking()
     {
         yield return new WaitForSeconds(0.16f);
-
-        Vector3 posForThrowingATK = new Vector3(transform.position.x + 0.5f, transform.position.y - 0.1f, transform.position.z);
-        GameObject go = Instantiate(Blast, posForThrowingATK, transform.rotation) as GameObject; 
+        if (PlayerFlip.flipX == false)
+        {
+            Vector3 posForThrowingATK = new Vector3(transform.position.x + 0.5f, transform.position.y - 0.1f, transform.position.z);
+            GameObject go = Instantiate(Blast, posForThrowingATK, transform.rotation) as GameObject;
+        }
+        else if(PlayerFlip.flipX == true)
+        {
+            Vector3 posForThrowingATK = new Vector3(transform.position.x - 0.5f, transform.position.y - 0.1f, transform.position.z);
+            GameObject go = Instantiate(Blast, posForThrowingATK, transform.rotation) as GameObject;
+        }
+         
 
         yield return new WaitForSeconds(0.14f);
     }
