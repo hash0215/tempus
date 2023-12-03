@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class PlantGrow : MonoBehaviour
 {
-    Rigidbody2D rigid;
     public Sprite img1;
     public Sprite img2;
     public Sprite img3;
@@ -14,12 +13,11 @@ public class PlantGrow : MonoBehaviour
     int hit_counter = 0;
     float plantGrowth = 0.5f;
     public GameObject Plant;
-    int i = 0;
-    float time = 0.0f;
+    //int i = 0;
+    //float time = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
-        rigid = GetComponent<Rigidbody2D>();
         PlantSR = GetComponent<SpriteRenderer>();
         Debug.Log("plant start");
 

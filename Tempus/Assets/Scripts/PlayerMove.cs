@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-       
+
         //jump
         if (rigid.velocity.normalized.y == 0)
         {
@@ -36,18 +36,21 @@ public class PlayerMove : MonoBehaviour
         else
             anim.SetBool("isJump", true);
 
-        
+
+        // it left/right input is gone reduce the speed immediately
         if (Input.GetButtonUp("Horizontal"))
         {
             rigid.velocity = new Vector2(rigid.velocity.normalized.x * (0.5f), rigid.velocity.y);       //rigid.velocity.normalized.x = x axis vector
         }
 
+   
+
+
         //Flip x
-        /*if (Input.GetButtonDown("Horizontal"))
-            spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;*/
-        if (rigid.velocity.x < 0)
+        /* filp character to its moving side*/
+        if (Input.GetAxisRaw("Horizontal") < 0)
             isright = false;
-        else if(rigid.velocity.x > 0) 
+        else if(Input.GetAxisRaw("Horizontal") > 0) 
             isright = true;
 
         if(isright == false)
@@ -59,11 +62,14 @@ public class PlayerMove : MonoBehaviour
             spriteRenderer.flipX = false;
         }
 
+   
         //isWalking animation trigger
         if (rigid.velocity.normalized.x == 0)
             anim.SetBool("isWalk", false);
         else
             anim.SetBool("isWalk", true);
+
+
     }
         
     void seasonChange()
@@ -91,8 +97,8 @@ public class PlayerMove : MonoBehaviour
     //moving
     void FixedUpdate()
     {
-        if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W))
-            rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+      /*  if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W))
+            rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);*/
 
         float h = Input.GetAxisRaw("Horizontal");
             rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
