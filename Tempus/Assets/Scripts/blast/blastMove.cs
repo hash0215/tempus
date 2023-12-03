@@ -10,7 +10,9 @@ public class blastMove : MonoBehaviour
     Animator anim;
     SpriteRenderer PlayerFlip;
     SpriteRenderer blastFlip;
-    float time = 0.0f;
+    int seasontp = 0;
+    //float time = 0.0f;
+    public GameObject obj;
 
 
     // Start is called before the first frame update
@@ -40,15 +42,45 @@ public class blastMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        seasontp = obj.GetComponent<elementchange>().seasontype;
+        if (seasontp == 1)           //spring
+        {
+            anim.SetBool("isSpring", true);
+            anim.SetBool("isSummer", false);
+            anim.SetBool("isFall", false);
+            anim.SetBool("isWinter", false);
+        }
+        else if (seasontp == 2)           //summer
+        {
+            anim.SetBool("isSpring", false);
+            anim.SetBool("isSummer", true);
+            anim.SetBool("isFall", false);
+            anim.SetBool("isWinter", false);
+        }
+        else if (seasontp == 3)           //fall
+        {
+            anim.SetBool("isSpring", false);
+            anim.SetBool("isSummer", false);
+            anim.SetBool("isFall", true);
+            anim.SetBool("isWinter", false);
+        }
+        else if (seasontp == 4)           //winter
+        {
+            anim.SetBool("isSpring", false);
+            anim.SetBool("isSummer", false);
+            anim.SetBool("isFall", false);
+            anim.SetBool("isWinter", true);
 
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Enemy" || other.tag == "Land" || other.tag == "objects")        //when blast hits enemy or land
+        if (other.tag == "Enemy" || other.tag == "Land" || other.tag == "field objects")        //when blast hits enemy or land
         {
+            Debug.Log("hit");
             rigid.velocity = new Vector2(0.5f, 0);
-            anim.SetBool("isHit", true);
+            //anim.SetBool("isHit", true);
             rigid.velocity = new Vector2(0,0);
             Destroy(gameObject, 0.3f);
         }
