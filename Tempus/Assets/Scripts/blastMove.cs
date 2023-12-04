@@ -56,6 +56,7 @@ public class blastMove : MonoBehaviour
             anim.SetBool("isSummer", true);
             anim.SetBool("isFall", false);
             anim.SetBool("isWinter", false);
+
         }
         else if (seasontp == 3)           //fall
         {
@@ -79,7 +80,7 @@ public class blastMove : MonoBehaviour
         if (other.tag == "Enemy" || other.tag == "Land" || other.tag == "field objects")        //when blast hits enemy or land
         {
             Debug.Log("hit");
-            rigid.velocity = new Vector2(0.5f, 0);
+            //rigid.velocity = new Vector2(0.5f, 0);
             //anim.SetBool("isHit", true);
             rigid.velocity = new Vector2(0,0);
             Destroy(gameObject, 0.3f);
