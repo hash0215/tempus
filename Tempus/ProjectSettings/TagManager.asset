@@ -7,6 +7,7 @@ TagManager:
   - field objects
   - Effect
   - Land
+  - BossLevel
   layers:
   - Default
   - TransparentFX
