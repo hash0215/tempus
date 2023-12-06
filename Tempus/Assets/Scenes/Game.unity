@@ -80456,6 +80456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac875ff5069fc84eae09755d402e1f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportDestination: {fileID: 120571205}
 --- !u!1 &1728155620
 GameObject:
   m_ObjectHideFlags: 0
