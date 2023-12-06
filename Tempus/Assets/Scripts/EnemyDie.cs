@@ -32,7 +32,7 @@ public class EnemyDie : MonoBehaviour
         if (other.tag == "Effect")
         {
             HP -= DMG;                                       //Blast Damage == DMG
-            if (HP < 0)                                     //when enemy is dead 
+            if (HP < 0)                                     //when enemy is dead
             {
                 Debug.Log("Enemy is dead!");
                 Destroy(gameObject);
@@ -41,29 +41,29 @@ public class EnemyDie : MonoBehaviour
             {
                 Debug.Log("Enemy remain HP is: " + HP);
 
-                if (seasontp == 1)           //spring   
+                if (seasontp == 1)           //spring
                 {
-                    Debug.Log("seasontp == 1");     // on fire - additional dot damage
-                    while (time < 1.0f)
+                    Debug.Log("seasontp == 1");
+                    
+                  
+                }
+                else if (seasontp == 2)      //summer
+                {
+                    Debug.Log("seasontp == 2");
+                    while (time < 1.0f)                     // on fire - additional dot damage
                     {
                         time += Time.deltaTime / 0.5f;
                         HP -= 5;
                     }
                     time = 0.0f;
-
                 }
-                else if (seasontp == 2)      //summer
-                {
-                    Debug.Log("seasontp == 2");
-                    
-                }
-                else if (seasontp == 3)     //fall 
+                else if (seasontp == 3)     //fall
                 {
                     Debug.Log("seasontp == 3");
                     while (time < 1.0f)
                     {
                         time += Time.deltaTime / 0.5f;
-                        rigid.velocity = new Vector2(3.0f, 0);              //pushes enemy back more
+                        rigid.velocity = new Vector2(3.0f, 0);
                     }
                     time = 0.0f;
                 }

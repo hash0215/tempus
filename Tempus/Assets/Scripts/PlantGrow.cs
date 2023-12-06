@@ -13,8 +13,8 @@ public class PlantGrow : MonoBehaviour
     int hit_counter = 0;
     float plantGrowth = 0.5f;
     public GameObject Plant;
-    public GameObject obj;
     int seasontp = 0;
+    public GameObject obj;
     //int i = 0;
     //float time = 0.0f;
     // Start is called before the first frame update
@@ -29,7 +29,6 @@ public class PlantGrow : MonoBehaviour
     void Update()
     {
         seasontp = obj.GetComponent<elementchange>().seasontype;
-        Debug.Log("updated " + seasontp);
     }
 
 
@@ -39,9 +38,8 @@ public class PlantGrow : MonoBehaviour
     {
         if (other.tag == "Effect")        //
         {
-            if (seasontp == 1)           //spring   
+            if (seasontp == 1)           //spring
             {
-
                 Debug.Log("hit");
                 hit_counter++;
                 if (hit_counter == 1)

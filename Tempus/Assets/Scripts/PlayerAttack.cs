@@ -8,7 +8,7 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
 
     private float curTime;
-    public float coolTime; // cooltime
+    public float coolTime = 0.5f; // cooltime
     public GameObject Blast;
     SpriteRenderer PlayerFlip;
 
