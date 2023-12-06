@@ -11,6 +11,9 @@ public class PlayerMove : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator anim;
 
+    private Vector3 respawnPoint;
+    public GameObject fallDetector;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,7 @@ public class PlayerMove : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        respawnPoint = transform.position;
     }
 
     void Update()
@@ -69,7 +73,20 @@ public class PlayerMove : MonoBehaviour
         else
             anim.SetBool("isWalk", true);
 
+        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "FallDetector")
+        {
+            transform.position = respawnPoint;
+        }
+        else if(collision.tag == "Checkpoint")
+        {
+            respawnPoint = transform.position;
+        }
     }
         
     void seasonChange()

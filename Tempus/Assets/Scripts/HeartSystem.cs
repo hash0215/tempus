@@ -6,12 +6,14 @@ public class HeartSystem : MonoBehaviour
 {
     public GameObject[] hearts;
     private int life;
+    private int hiddenHeartsCount; // New variable to track hidden hearts
     private bool dead;
     public HealthPotionCounter potionCounter;
 
     private void Start()
     {
         life = hearts.Length;
+        hiddenHeartsCount = 0; // Initialize the count to 0
     }
 
     void Update()
@@ -34,7 +36,13 @@ public class HeartSystem : MonoBehaviour
         if (life >= 1)
         {
             life -= damage;
-            Destroy(hearts[life].gameObject);
+
+            if (life >= 0 && life < hearts.Length)
+            {
+                hearts[life].SetActive(false);
+                hiddenHeartsCount++;
+            }
+
             if (life < 1)
             {
                 dead = true;
@@ -60,8 +68,28 @@ public class HeartSystem : MonoBehaviour
         if (life < hearts.Length)
         {
             life = Mathf.Min(life + amount, hearts.Length);
-            Instantiate(hearts[life - 1], transform); // Instantiate a new heart prefab or use the existing one
+
+            if (hiddenHeartsCount > 0)
+            {
+                hearts[life - 1].SetActive(true);
+                hiddenHeartsCount--;
+            }
+            else
+            {
+                Instantiate(hearts[life - 1], transform); // Instantiate a new heart prefab or use the existing one
+            }
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // Check if the colliding object has the tag "Damaging"
+        if (other.CompareTag("Damaging"))
+        {
+            // Adjust the damage amount as needed
+            Debug.Log("Hit");
+            int damageAmount = 1;
+            TakeDamage(damageAmount);
         }
     }
 }
-
