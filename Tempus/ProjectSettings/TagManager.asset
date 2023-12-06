@@ -7,6 +7,10 @@ TagManager:
   - field objects
   - Effect
   - Land
+<<<<<<< Updated upstream
+=======
+  - BossLevel
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

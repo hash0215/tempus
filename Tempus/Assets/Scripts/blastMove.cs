@@ -46,7 +46,11 @@ public class blastMove : MonoBehaviour
         seasontp = obj.GetComponent<elementchange>().seasontype;
         if (seasontp == 1)           //spring
         {
+<<<<<<< Updated upstream
             anim.SetBool("isSB", false);
+=======
+            anim.SetBool("isStart", false);
+>>>>>>> Stashed changes
             anim.SetBool("isSpring", true);
             anim.SetBool("isSummer", false);
             anim.SetBool("isFall", false);
@@ -54,7 +58,11 @@ public class blastMove : MonoBehaviour
         }
         else if (seasontp == 2)           //summer
         {
+<<<<<<< Updated upstream
             anim.SetBool("isSB", false);
+=======
+            anim.SetBool("isStart", false);
+>>>>>>> Stashed changes
             anim.SetBool("isSpring", false);
             anim.SetBool("isSummer", true);
             anim.SetBool("isFall", false);
@@ -63,7 +71,11 @@ public class blastMove : MonoBehaviour
         }
         else if (seasontp == 3)           //fall
         {
+<<<<<<< Updated upstream
             anim.SetBool("isSB", false);
+=======
+            anim.SetBool("isStart", false);
+>>>>>>> Stashed changes
             anim.SetBool("isSpring", false);
             anim.SetBool("isSummer", false);
             anim.SetBool("isFall", true);
@@ -71,7 +83,11 @@ public class blastMove : MonoBehaviour
         }
         else if (seasontp == 4)           //winter
         {
+<<<<<<< Updated upstream
             anim.SetBool("isSB", false);
+=======
+            anim.SetBool("isStart", false);
+>>>>>>> Stashed changes
             anim.SetBool("isSpring", false);
             anim.SetBool("isSummer", false);
             anim.SetBool("isFall", false);
