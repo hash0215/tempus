@@ -31,7 +31,11 @@ public class EnemyBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Land"))
+        if(other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+        else if(other.gameObject.CompareTag("Land"))
         {
             Destroy(gameObject);
         }
