@@ -920,7 +920,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.12, y: 7.88}
+    oldSize: {x: 8, y: 9.375}
     newSize: {x: 3.73, y: 3.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -78256,6 +78256,7 @@ Transform:
   - {fileID: 2084229355}
   - {fileID: 1046334270}
   - {fileID: 1322916977}
+  - {fileID: 548036391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1321374780
@@ -80325,7 +80326,7 @@ GameObject:
   - component: {fileID: 1720146102}
   - component: {fileID: 1720146105}
   m_Layer: 0
-  m_Name: Boss Level
+  m_Name: BossLevel
   m_TagString: BossLevel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82377,6 +82378,8 @@ SceneRoots:
   - {fileID: 691253646}
   - {fileID: 519420032}
   - {fileID: 220821561}
+  - {fileID: 1720146104}
+  - {fileID: 120571205}
   - {fileID: 1322916977}
   - {fileID: 245639232}
   - {fileID: 363801505}
@@ -82433,3 +82436,4 @@ SceneRoots:
   - {fileID: 1982822592}
   - {fileID: 1251536536}
   - {fileID: 533058433}
+  - {fileID: 1297471096}
