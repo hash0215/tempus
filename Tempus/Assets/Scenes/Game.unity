@@ -325,7 +325,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 34.464996, y: -79}
+  m_AnchoredPosition: {x: 34.464966, y: -79}
   m_SizeDelta: {x: 68.93, y: 68.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120679908
@@ -1932,7 +1932,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.1225023
+  orthographic size: 6.343685
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -65499,7 +65499,7 @@ Animator:
   m_GameObject: {fileID: 1538807968}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b41e7d9017c658141add3e795641b405, type: 2}
+  m_Controller: {fileID: 9100000, guid: 53b07322b9d16ac41b9233f11e1c1f41, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -65889,6 +65889,7 @@ MonoBehaviour:
   img3: {fileID: 216211240, guid: f36d6e2e61ab89743a96a483447cca0f, type: 3}
   img4: {fileID: 653606785, guid: f36d6e2e61ab89743a96a483447cca0f, type: 3}
   Plant: {fileID: 1074534197}
+  obj: {fileID: 0}
 --- !u!61 &1685948704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65995,7 +65996,7 @@ Transform:
   m_GameObject: {fileID: 1685948702}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.83, y: -2.74, z: 0}
+  m_LocalPosition: {x: 187.516, y: 0.282, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
