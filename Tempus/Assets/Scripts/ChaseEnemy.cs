@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChaseEnemy : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject Player;
     private Transform playerPos;
     private Vector2 initialPos;
 
@@ -19,7 +19,7 @@ public class ChaseEnemy : MonoBehaviour
 
     void Start()
     {
-        playerPos = player.GetComponent<Transform>();
+        playerPos = Player.GetComponent<Transform>();
         initialPos = transform.position; // Store the initial position
     }
 
