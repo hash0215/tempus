@@ -5,10 +5,10 @@ using UnityEngine;
 public class elementchange : MonoBehaviour
 {
     public int seasontype = 0;
-    bool SpringOn = false;
-    bool SummerOn = false;
-    bool FallOn = false;
-    bool WinterOn = false;
+    public bool SpringOn = false;
+    public bool SummerOn = false;
+    public bool FallOn = false;
+    public bool WinterOn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,7 @@ public class elementchange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(SpringOn + " " + SummerOn + " " + FallOn + " " + WinterOn);
         if (Input.GetKeyDown(KeyCode.Alpha1) && SpringOn)           //1 btn: change to spring
         {
             seasontype = 1;
