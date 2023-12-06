@@ -622,7 +622,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 19.9752, y: -1.9933, z: 0}
-  m_LocalScale: {x: 0.52052003, y: 0.5162, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  coolTime: 0.5
+  coolTime: 3
   Blast: {fileID: 1538807968}
 --- !u!95 &220821564
 Animator:
@@ -23112,6 +23112,7 @@ MonoBehaviour:
   img3: {fileID: 216211240, guid: f36d6e2e61ab89743a96a483447cca0f, type: 3}
   img4: {fileID: 653606785, guid: f36d6e2e61ab89743a96a483447cca0f, type: 3}
   Plant: {fileID: 1074534197}
+  obj: {fileID: 220821556}
 --- !u!61 &1685948704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23218,7 +23219,7 @@ Transform:
   m_GameObject: {fileID: 1685948702}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.83, y: -2.74, z: 0}
+  m_LocalPosition: {x: 186.39, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
