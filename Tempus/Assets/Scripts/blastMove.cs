@@ -23,9 +23,8 @@ public class blastMove : MonoBehaviour
         PlayerFlip = player.GetComponent<SpriteRenderer>();
         blastFlip = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        anim.SetBool("isSB", true);
 
-        if (PlayerFlip.flipX == false)
+        if(PlayerFlip.flipX == false)
         {
             blastFlip.flipX = false;
             this.GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, 0);
@@ -46,7 +45,6 @@ public class blastMove : MonoBehaviour
         seasontp = obj.GetComponent<elementchange>().seasontype;
         if (seasontp == 1)           //spring
         {
-            anim.SetBool("isStart", false);
             anim.SetBool("isSpring", true);
             anim.SetBool("isSummer", false);
             anim.SetBool("isFall", false);
@@ -54,7 +52,6 @@ public class blastMove : MonoBehaviour
         }
         else if (seasontp == 2)           //summer
         {
-            anim.SetBool("isStart", false);
             anim.SetBool("isSpring", false);
             anim.SetBool("isSummer", true);
             anim.SetBool("isFall", false);
@@ -63,7 +60,6 @@ public class blastMove : MonoBehaviour
         }
         else if (seasontp == 3)           //fall
         {
-            anim.SetBool("isStart", false);
             anim.SetBool("isSpring", false);
             anim.SetBool("isSummer", false);
             anim.SetBool("isFall", true);
@@ -71,7 +67,6 @@ public class blastMove : MonoBehaviour
         }
         else if (seasontp == 4)           //winter
         {
-            anim.SetBool("isStart", false);
             anim.SetBool("isSpring", false);
             anim.SetBool("isSummer", false);
             anim.SetBool("isFall", false);
