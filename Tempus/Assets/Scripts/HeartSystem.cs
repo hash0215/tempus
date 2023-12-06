@@ -22,6 +22,10 @@ public class HeartSystem : MonoBehaviour
         {
             // SET DEAD CODE
             Debug.Log("WE ARE DEAD");
+            
+            // Stop the game or perform other actions
+            Time.timeScale = 0f; // This will stop the game
+            return; // Exit the Update method
         }
 
         // Check for the 'H' key press to use the health potion
