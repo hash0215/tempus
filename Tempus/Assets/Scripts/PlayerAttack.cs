@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -11,41 +9,49 @@ public class PlayerAttack : MonoBehaviour
     public float coolTime = 0.5f; // cooltime
     public GameObject Blast;
     SpriteRenderer PlayerFlip;
+    Camera mainCamera;
 
-    void Attack() //attack
+    // Add this line to define the projectile speed
+    public float projectileSpeed = 5f;
+
+    void Attack(Vector3 targetPosition)
     {
-        GameObject player = GameObject.Find("Player");
-        PlayerFlip = player.GetComponent<SpriteRenderer>();
         curTime = coolTime;
-        StartCoroutine("Attacking");
+        StartCoroutine(Attacking(targetPosition));
     }
 
-    IEnumerator Attacking()
+    IEnumerator Attacking(Vector3 targetPosition)
     {
         yield return new WaitForSeconds(0.16f);
-        if (PlayerFlip.flipX == false)
-        {
-            Vector3 posForThrowingATK = new Vector3(transform.position.x + 0.5f, transform.position.y - 0.1f, transform.position.z);
-            GameObject go = Instantiate(Blast, posForThrowingATK, transform.rotation) as GameObject;
-        }
-        else if(PlayerFlip.flipX == true)
-        {
-            Vector3 posForThrowingATK = new Vector3(transform.position.x - 0.5f, transform.position.y - 0.1f, transform.position.z);
-            GameObject go = Instantiate(Blast, posForThrowingATK, transform.rotation) as GameObject;
-        }
-         
+
+        Vector3 posForThrowingATK = transform.position;
+
+        // Calculate direction vector towards the mouse click position
+        Vector3 direction = (targetPosition - posForThrowingATK).normalized;
+
+        // Instantiate the projectile and set its initial position and velocity
+        GameObject go = Instantiate(Blast, posForThrowingATK, Quaternion.identity) as GameObject;
+        go.GetComponent<Rigidbody2D>().velocity = direction * projectileSpeed;
 
         yield return new WaitForSeconds(0.14f);
     }
 
     void Start()
     {
-
+        // Assign the main camera to the variable
+        mainCamera = Camera.main;
+        PlayerFlip = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K)) Attack(); // attack
+        if (Input.GetMouseButtonDown(0)) // Left mouse button
+        {
+            Vector3 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            mousePos.z = 0; // Set the z-coordinate to a fixed value or adjust as needed
+
+            Attack(mousePos);
+        }
 
         if (curTime > 0) curTime -= Time.deltaTime; // cooltime
     }
